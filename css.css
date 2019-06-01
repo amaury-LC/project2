@@ -1,0 +1,40 @@
+body{
+
+    background: #847aac;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Wiggum{
+
+    width: 100em;
+    position: absolute;
+    top : -10em;
+    left: 0px;
+    
+
+
+}
+
+.haut{
+
+    width: 120%;
+    height: 40px;
+    background: rgb(183, 186, 190);
+    
+    
+
+
+
+}
+
+.titre_site{
+
+    display:inline;
+    margin-left: -15%;
+    position: relative;
+    top : 8px;
+    font-size: 25px;
+    word-spacing: 10px;
+}
