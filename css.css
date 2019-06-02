@@ -88,6 +88,26 @@ body{
     
  }
 
+ .wig1{
+
+    position: absolute;
+    top : 80px;
+    left: -40px;
+
+    width: 100%;
+    height: 800px;
+    
+    z-index: 5;
+    
+    
+    
+ }
+ #wig1{
+
+    display : none;
+
+ }
+
  .titre{
 
 
