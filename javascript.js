@@ -1,6 +1,14 @@
 
 
+var x = document.getElementById("myAudio"); 
+
+
+
 function myFunction1(){
+
+    x.play(); 
+
+
     
     
     document.getElementById('cam1').style.display = "block";
@@ -23,4 +31,6 @@ function myFunction1(){
 
 
 }
+
+
 
