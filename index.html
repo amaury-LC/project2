@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css.css">
-    <title>Document</title>
+    <title>Simpson</title>
 </head>
 <body>
 
@@ -25,24 +25,23 @@
 
     </div>
 
-    <p class="titre">Spr<span>i</span>ngf<span>i</span>eld Pol<span>i</span>ce Department</p>
+    <p id="titre" class="titre">Spr<span>i</span>ngf<span>i</span>eld Pol<span>i</span>ce Department</p>
 
 
-    <div class="wig"><img class="Wiggum" src="wigumV2_2.svg"  ></div>
+    <div id="wig" class="wig"><img class="Wiggum" src="wigumV2_2.svg"  ></div>
 
     <div class="barre_gauche"></div>
 
 
-    <div class="input1">
+    <div id="input1" class="input1">
 
         <div>
-            <input type="radio" id="Oui" name="drone" value="Oui"
-            checked>
-            <label  for="Oui">Oui</label>
+            <input onclick="myFunction()" type="radio" id="Oui" name="drone">
+            <label   for="Oui">Oui</label>
         </div>
                   
         <div style="margin-left: 200px">
-            <input type="radio" id="Non" name="drone" value="Non">
+            <input onclick="myFunction1()" type="radio" id="Non" name="drone">
             <label for="Non">Non</label>
         </div>
 
@@ -58,6 +57,6 @@
 
 
     
-    
+<script src="javascript.js"></script>  
 </body>
 </html>
