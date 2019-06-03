@@ -14,8 +14,11 @@ function myFunction1(){
     setTimeout(cam,4000);
     setTimeout(titre, 7500);
     setTimeout(Wiggum,7500);
+    // setTimeout(vid,17000);
+
     
     document.getElementById('input1').style.display = "none";
+
   
     
 
@@ -38,12 +41,20 @@ function titre(){
 
 }
 
+function vid(){
+
+    document.getElementById('vid').style.display ="block";
+
+
+}
+
 function Wiggum(){
 
     document.getElementById('Wiggum').style.width = "70em";
     document.getElementById('Wiggum').style.left = "15%";
     document.getElementById('wig1').style.display = "block";
     document.getElementById('wig').style.top = "200px";
+
 
 
 }
