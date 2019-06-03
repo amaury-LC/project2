@@ -146,6 +146,7 @@ body{
 
 }
 
+
 .cam{
 
     position : fixed;
@@ -236,5 +237,28 @@ body{
     100%{opacity: 100;}
    
   }
+
+
+  /* @media (max-width: 800px) { 
+
+   .dis{
+
+      display : none;
+
+      
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+   } */
 
  
