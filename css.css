@@ -124,9 +124,9 @@ body{
     
     transform : rotate(360deg);
     animation-name: example;
-    animation-duration: 40s ;
+    animation-duration: 20s ;
     transform-origin: center;
-    animation-delay: 7s;
+    /* animation-delay: s; */
 
     visibility: hidden;
     
@@ -152,7 +152,7 @@ body{
     top : 350px;
     left : 60%;
     animation-name: cli;
-    animation-delay: 4s;
+    /* animation-delay: 4s; */
     
     animation-duration: 1s ;
 
